@@ -1,0 +1,36 @@
+apiVersion: kops/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    # ...
+
+    # InstanceGroupLabelOrientation is the metadata label used on the
+    # instance group to specify which orientation should be used.
+    # Defaults to balances.
+    spotinst.io/orientation: cost
+
+    # InstanceGroupLabelFallbackToOnDemand is the metadata label used on the
+    # instance group to specify whether fallback to on-demand instances should
+    # be enabled. Defaults to true.
+    spotinst.io/fallback-to-ondemand: "false"
+
+    # InstanceGroupLabelUtilizeReservedInstances is the metadata label used
+    # on the instance group to specify whether reserved instances should be
+    # utilized. Defaults to true.
+    spotinst.io/utilize-reserved-instances: "false"
+
+    # InstanceGroupLabelAutoScalerDisabled is the metadata label used on the
+    # instance group to specify whether the auto-scaler should be enabled.
+    # Defaults to false.
+    spotinst.io/autoscaler-disabled: "true"
+
+    # InstanceGroupLabelAutoScalerDefaultNodeLabels is the metadata label used
+    # on the instance group to specify whether default node labels should be
+    # set for the auto-scaler. Defaults to false.
+    spotinst.io/autoscaler-node-labels: "true"
+
+    # ...
+  name: nodes
+spec:
+  # ...

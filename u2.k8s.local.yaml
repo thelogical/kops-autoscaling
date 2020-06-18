@@ -1,0 +1,94 @@
+apiVersion: kops.k8s.io/v1alpha2
+kind: Cluster
+metadata:
+  creationTimestamp: null
+  name: u2.k8s.local
+spec:
+  api:
+    loadBalancer:
+      type: Public
+  authorization:
+    rbac: {}
+  channel: stable
+  cloudProvider: aws
+  configBase: s3://devops-02-kops-state2/u2.k8s.local
+  etcdClusters:
+  - cpuRequest: 200m
+    etcdMembers:
+    - instanceGroup: master-us-east-2a
+      name: a
+    memoryRequest: 100Mi
+    name: main
+  - cpuRequest: 100m
+    etcdMembers:
+    - instanceGroup: master-us-east-2a
+      name: a
+    memoryRequest: 100Mi
+    name: events
+  iam:
+    allowContainerRegistry: true
+    legacy: false
+  kubelet:
+    anonymousAuth: false
+    authenticationTokenWebhook: true
+    authorizationMode: Webhook
+  kubernetesApiAccess:
+  - 0.0.0.0/0
+  kubernetesVersion: v1.11.10
+  masterPublicName: api.u2.k8s.local
+  networkCIDR: 172.20.0.0/16
+  networking:
+    kubenet: {}
+  nonMasqueradeCIDR: 100.64.0.0/10
+  sshAccess:
+  - 0.0.0.0/0
+  subnets:
+  - cidr: 172.20.32.0/19
+    name: us-east-2a
+    type: Public
+    zone: us-east-2a
+  topology:
+    dns:
+      type: Public
+    masters: public
+    nodes: public
+---
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  kops.k8s.io/cluster: u2.k8s.local
+  labels:
+    kops.k8s.io/cluster: u2.k8s.local
+  name: master-us-east-2a
+spec:
+  image: ami-0a63f96e85105c6d3
+  machineType: t3.small
+  maxPrice: '0.35'
+  maxSize: 1
+  minSize: 1
+  nodeLabels:
+    kops.k8s.io/instancegroup: master-us-east-2a
+  role: Master
+  subnets:
+  - us-east-2a
+---
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  kops.k8s.io/cluster: u2.k8s.local
+  labels:
+    kops.k8s.io/cluster: u2.k8s.local
+  name: nodes
+spec:
+  image: ami-0a63f96e85105c6d3
+  machineType: t3.small
+  maxPrice: '0.35'
+  maxSize: 5
+  minSize: 1
+  nodeLabels:
+    kops.k8s.io/instancegroup: nodes
+  role: Node
+  subnets:
+  - us-east-2a

@@ -1,0 +1,7 @@
+{
+  "name": "u2",
+  "minSize": 1,
+  "maxSize": 5,
+  "machineType": "t3.small",
+  "ami-id": "ami-0a63f96e85105c6d3"
+}
