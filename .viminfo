@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1592500997,,"wq!"
+|2,0,1592501244,,"wq!"
 :q!
 |2,0,1592499053,,"q!"
 :wq
@@ -149,38 +149,52 @@
 |3,1,36,0,1,0,1592499087,"t"
 
 # File marks:
-'0  4  1  ~/.gitignore
-|4,48,4,1,1592500997,"~/.gitignore"
-'1  3  19  ~/.gitignore
-|4,49,3,19,1592499122,"~/.gitignore"
+'0  26  73  ~/README.md
+|4,48,26,73,1592501244,"~/README.md"
+'1  4  1  ~/.gitignore
+|4,49,4,1,1592500997,"~/.gitignore"
 '2  3  19  ~/.gitignore
 |4,50,3,19,1592499122,"~/.gitignore"
-'3  35  0  ~/clusters.sh
-|4,51,35,0,1592499053,"~/clusters.sh"
+'3  3  19  ~/.gitignore
+|4,51,3,19,1592499122,"~/.gitignore"
 '4  35  0  ~/clusters.sh
-|4,52,35,0,1592499049,"~/clusters.sh"
-'5  1  0  ~/clusters.sh
-|4,53,1,0,1592499045,"~/clusters.sh"
+|4,52,35,0,1592499053,"~/clusters.sh"
+'5  35  0  ~/clusters.sh
+|4,53,35,0,1592499049,"~/clusters.sh"
 '6  1  0  ~/clusters.sh
 |4,54,1,0,1592499045,"~/clusters.sh"
-'7  90  0  ~/clusters.sh
-|4,55,90,0,1592498534,"~/clusters.sh"
+'7  1  0  ~/clusters.sh
+|4,55,1,0,1592499045,"~/clusters.sh"
 '8  90  0  ~/clusters.sh
 |4,56,90,0,1592498534,"~/clusters.sh"
 '9  90  0  ~/clusters.sh
 |4,57,90,0,1592498534,"~/clusters.sh"
 
 # Jumplist (newest first):
+-'  26  73  ~/README.md
+|4,39,26,73,1592501244,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1592501229,"~/README.md"
+-'  4  1  ~/.gitignore
+|4,39,4,1,1592500997,"~/.gitignore"
 -'  4  1  ~/.gitignore
 |4,39,4,1,1592500997,"~/.gitignore"
 -'  3  19  ~/.gitignore
 |4,39,3,19,1592500978,"~/.gitignore"
+-'  3  19  ~/.gitignore
+|4,39,3,19,1592500978,"~/.gitignore"
+-'  3  19  ~/.gitignore
+|4,39,3,19,1592499122,"~/.gitignore"
 -'  3  19  ~/.gitignore
 |4,39,3,19,1592499122,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1592499072,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1592499072,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1592499072,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1592499072,"~/.gitignore"
 -'  35  0  ~/clusters.sh
 |4,39,35,0,1592499053,"~/clusters.sh"
 -'  35  0  ~/clusters.sh
@@ -189,6 +203,22 @@
 |4,39,35,0,1592499053,"~/clusters.sh"
 -'  35  0  ~/clusters.sh
 |4,39,35,0,1592499053,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499053,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499053,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499053,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499053,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499049,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499049,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499049,"~/clusters.sh"
+-'  35  0  ~/clusters.sh
+|4,39,35,0,1592499049,"~/clusters.sh"
 -'  35  0  ~/clusters.sh
 |4,39,35,0,1592499049,"~/clusters.sh"
 -'  35  0  ~/clusters.sh
@@ -213,6 +243,38 @@
 |4,39,1,0,1592499045,"~/clusters.sh"
 -'  1  0  ~/clusters.sh
 |4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592499045,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498535,"~/clusters.sh"
 -'  90  0  ~/clusters.sh
 |4,39,90,0,1592498535,"~/clusters.sh"
 -'  90  0  ~/clusters.sh
@@ -245,6 +307,38 @@
 |4,39,90,0,1592498534,"~/clusters.sh"
 -'  90  0  ~/clusters.sh
 |4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  90  0  ~/clusters.sh
+|4,39,90,0,1592498534,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
+-'  1  0  ~/clusters.sh
+|4,39,1,0,1592498526,"~/clusters.sh"
 -'  1  0  ~/clusters.sh
 |4,39,1,0,1592498526,"~/clusters.sh"
 -'  1  0  ~/clusters.sh
@@ -277,102 +371,15 @@
 |4,39,57,33,1592495448,"~/clusters.sh"
 -'  57  33  ~/clusters.sh
 |4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495448,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  57  33  ~/clusters.sh
-|4,39,57,33,1592495441,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  95  0  ~/clusters.sh
-|4,39,95,0,1592494985,"~/clusters.sh"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
--'  5  25  ~/query.json
-|4,39,5,25,1592494980,"~/query.json"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1592501243	0
+	"	26	73
+	^	26	74
+	.	26	73
+	+	26	73
 
 > ~/.gitignore
 	*	1592500995	0
