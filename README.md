@@ -1,6 +1,9 @@
 # Introduction
 
-This repository will helps automate creation of new k8 clusters and install the dependencies to make it auto scalable on demand. This is tested on AWS environment
+This repository will helps automate creation of new k8 clusters and install the dependencies to make it auto scalable on demand. This is tested on AWS environment.
+By default the clusters will have Spot instances which can be used to test the environment.
+Remove *maxPrice* in the generated yaml to create on-Demand instances.
+
 
 ### Requirments
 
