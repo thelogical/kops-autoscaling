@@ -1,3 +1,4 @@
 kops.tar
 algo
 user1.k8s.local.yaml
+.*
