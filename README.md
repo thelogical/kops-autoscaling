@@ -9,6 +9,7 @@ To get the latest release of [metric-server](https://github.com/kubernetes-sigs/
 ### Requirments
 
 * kops
+* Pre generated ssh keys ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa 
 * jq
 * Python2.7/3.7
 * Sufficient [ IAM ](https://aws.amazon.com/blogs/opensource/deploying-aws-iam-authenticator-kubernetes-kops/) permissions on the ec2 instance on which the script will be run
@@ -18,10 +19,13 @@ To get the latest release of [metric-server](https://github.com/kubernetes-sigs/
 
 Edit the *query.json* file to modify the cluster parameters.
 The name parameter will be used to name the cluster.
-Make sure your ec2 instance has sufficient IAM permissions.
+Make sure your ec2 instance has sufficient IAM permissions.<br>
+If you haven't already then generate ssh keys to access the instances that will be created for the clusters you will set up  with `ssh-keygen`.<br>
+
 
 ```bash
 git clone https://github.com/thelogical/kops-autoscaling.git
+cd kops-autoscaling
 chmod +x clusters.sh
 ./clusters.sh
 ```
