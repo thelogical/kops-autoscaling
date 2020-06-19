@@ -10,7 +10,7 @@ Remove *maxPrice* in the generated yaml to create on-Demand instances.
 * kops
 * jq
 * Python2.7/3.7
-* Sufficient [IAM] (https://aws.amazon.com/blogs/opensource/deploying-aws-iam-authenticator-kubernetes-kops/) permissions on the ec2 instance on which the script will be run
+* Sufficient [ IAM ](https://aws.amazon.com/blogs/opensource/deploying-aws-iam-authenticator-kubernetes-kops/) permissions on the ec2 instance on which the script will be run
 
 
 ### Deployment
