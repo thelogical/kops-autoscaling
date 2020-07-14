@@ -18,7 +18,7 @@ To get the latest release of [metric-server](https://github.com/kubernetes-sigs/
 
 ### Deployment
 
-Before Proceeding make sure you have kubectl installed on the system.
+Before Proceeding make sure you have kubectl installed on the system.<br>
 Edit the *query.json* file to modify the cluster parameters.
 The name parameter will be used to name the cluster.
 Make sure your ec2 instance has sufficient IAM permissions.<br>
