@@ -8,7 +8,8 @@ To get the latest release of [metric-server](https://github.com/kubernetes-sigs/
 
 ### Requirments
 
-* kops
+* Kops
+* Kubectl
 * Pre generated ssh keys ~/.ssh/id_rsa.pub and ~/.ssh/id_rsa 
 * jq
 * Python2.7/3.7
@@ -17,6 +18,7 @@ To get the latest release of [metric-server](https://github.com/kubernetes-sigs/
 
 ### Deployment
 
+Before Proceeding make sure you have kubectl installed on the system.
 Edit the *query.json* file to modify the cluster parameters.
 The name parameter will be used to name the cluster.
 Make sure your ec2 instance has sufficient IAM permissions.<br>
